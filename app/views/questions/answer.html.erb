@@ -1,0 +1,18 @@
+<div class="container mt-5">
+  <h2>Stupid Coaching</h2>
+
+  <div class="card mb-3">
+    <div class="card-body bg-light">
+      <p class="mb-0"><strong>You:</strong> <%= @question %></p>
+    </div>
+  </div>
+
+<div class="card mb-4">
+  <div class="card-body bg-warning bg-opacity-25 border border warning rounded">
+    <p class="mb-0"><strong>Coach:</strong> <%= @answer %></p>
+  </div>
+</div>
+
+<%= link_to "Ask another question", ask_path, class: "btn-outline-primary" %>
+
+</div>
